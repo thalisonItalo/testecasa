@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap'); /* Font */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Inicio menu lateral */
+body{
+    height: 100vh;
+}
+
+nav.menu-lateral{
+    width: 80px;
+    height: 100%;
+    background-color: #22223b;
+    padding: 20px 0 20px 0%;
+    box-shadow: 3px 0 0 #ff6700;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+
+nav.menu-lateral:hover{
+    width: 300px;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu{
+    width: 250px;
+    height: 76px;
+    border-radius: 10px;
+    transition: .2s;
+}
+
+ul li.item-menu:hover{
+    background-color: #ff7900;
+}
+
+ul li.item-menu a{  
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+ul li.item-menu a .txt-link{
+    color: white; /* cor da letra */
+    margin-left: 40px;
+}
+
+ul li.item-menu a .icon i{
+    color: white;
+   font-size: 25px; 
+}
+
+.item-menu{
+    margin-top: 90px;
+}
+
+.title-lateral{
+    margin-top: 50px;
+    margin-left: 90px;
+}
+/* Fim menu lateral */
+
+
+/* Inicio do corpo do site */
+body{
+    background-color: #22223b;
+    color: #fff;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+h1{
+    font-weight: 300;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 210px;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 75px;
+    
+}
+
+span{
+    color: #ff6700;
+}
+
+p{
+    line-height: 30px;
+    max-width: 500px;
+
+}
+
+img{
+    width: 580px;
+    margin-left: 100px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ff6700;
+    transition: 0.3s all;
+}
+
+#inscreva-se-button{
+    border: 2px solid #ff6700;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-button:hover{
+    background-color: #ff6700;
+    color: #fff;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.cadastrar{
+    height: 50px;
+    width: 40%;
+    background-color: #ff6700;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-top: 20px;
+    border: none;
+}
+
+.cadastrar a{
+    color: #FFF;
+}
+
+input{
+    width: 500px;
+    margin-top: 20px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+/* Fim do corpo do site */
+
+/* Inicio Contato */
+
+.title-contato{
+    margin-top: 220px;
+    color: #ff6700;
+}
+
+.contatos{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/* Fim Contato */
+
+/* Inicio Suporte */
+.suporte{
+    border-radius: 10px;
+    background-color: #FFF;
+    width: 100%;
+    height: 200%;
+    margin-top: 300px;
+}
+
+.title-suporte{
+    color: black;
+    margin-left: 600px;
+    padding-top: 90px;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.txt-suporte{
+    color: black;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+.table{
+    background-color: beige;
+    margin-top: 100px;
+    width: 850px;
+    margin-left: 320px;
+}
+
+.table-txt{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.table-txt h1{
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.table-txt p{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.title-comentarios{
+    color: black;
+    margin-left: 520px;
+    padding-top: 90px;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.comentarios-txt{
+    color: black;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+/* Fim Suporte */
+
+/* Inicio Formulario */
+.form{
+    margin-top: 100px;
+    width: 60%;
+    height: 60vh;
+    display: flex;
+    margin-left: 540px;
+}
+
+.form-header{
+    color: black;
+}
+
+.input-form{
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-form input{
+    width: 410px;
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+.input-form input:hover{
+    background-color: #eeeeee75;
+} 
+
+.input-form input:focus-visible{
+    outline: 1px solid #22223b;
+}
+
+.input-form label{
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #000000c0;
+} 
+
+.input-form input::placeholder{
+    color: #000000be;
+} 
+
+.btn-enviar button{
+    width: 60%;
+    margin-top: 100px;
+    margin-left: 55px;
+    border: none;
+    background-color: #22223b;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+} 
+
+.btn-enviar button a{
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #FFF;
+} 
+
+.link a{
+    font-size: 13px;
+} 
+
+.radio input{
+    width: 20px; 
+    margin-left: 55px;
+}
+
+.txt-area textarea{
+    width: 410px;
+    height: 200px;
+}
+
+.checkbox input{
+    width: 12px;
+}
+
+.btn-enviar input{
+    width: 410px;
+}
+/* Fim Formulario */

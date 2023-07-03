@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+
+/* Inicio cadastro */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #22223b;
+}
+
+.container{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+}
+
+.form-image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #023047;
+    padding: 1rem;
+}
+
+.form-image img{ 
+    width: 42rem;
+  /* tamanho da imagem */
+}
+
+.form{
+    width: 45%;
+    display: flex;
+    background-color: #FFF;
+    padding: 3rem;
+}
+
+
+.form-header h1::after{
+    content: "";
+    display: block;
+    width: 8rem;
+    height: 0.3rem;
+    background-color: #22223b;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.input-group{
+    margin-top: 5px;
+    padding: 1rem 0;
+}
+
+.input-box{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box input{
+    width: 500px;
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+.input-box input:hover{
+    background-color: #eeeeee75;
+}
+
+.input-box input:focus-visible{
+    outline: 1px solid #22223b;
+}
+
+.input-box label{
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.input-box input::placeholder{
+    color: #000000be;
+}
+
+.continue-button button{
+    width: 100%;
+    margin-top: 0.3rem;
+    margin-left: 35px;
+    border: none;
+    background-color: #22223b;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.continue-button button a{
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #FFF;
+}
+/* Fim cadastro */
+
+/* Inicio Cabeçalho */
+body{
+    background-color: #22223b;
+    color: #fff;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+h1{
+    font-weight: 300;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 210px;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 75px;
+    
+}
+
+span{
+    color: #ff6700;
+}
+
+p{
+    line-height: 30px;
+    max-width: 500px;
+
+}
+
+img{
+    width: 580px;
+    margin-left: 350px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ff6700;
+    transition: 0.3s all;
+}
+
+#inscreva-se-button{
+    border: 2px solid #ff6700;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-button:hover{
+    background-color: #ff6700;
+    color: #fff;
+}
+/* Fim Cabeçalho */
+
+
+
